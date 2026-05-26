@@ -1,4 +1,13 @@
 {
+  "name": "chatify-server",
+  "version": "1.0.0",
+  "description": "Backend server for Chatify app (Express + MongoDB)",
+  "main": "server.js",
+  "scripts": {
+    "dev": "node --watch server.js"
+  },
+  "author": "",
+  "license": "MIT",
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "cookie-parser": "^1.4.7",
@@ -6,5 +15,8 @@
     "express": "^4.21.2",
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.10.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
   }
 }
