@@ -13,19 +13,19 @@
   "routes": [
     {
       "src": "/api/(.*)",
-      "dest": "server/src/server.js"
+      "dest": "/server/src/server.js"
     },
     {
       "src": "/assets/(.*)",
-      "dest": "client/dist/assets/$1"
+      "dest": "/client/dist/assets/$1"
     },
     {
       "src": "/((?!api/).*\\..*)",
-      "dest": "client/dist/$1"
+      "dest": "/client/dist/$1"
     },
     {
       "src": "/((?!api/).*)",
-      "dest": "client/dist/index.html"
+      "dest": "/client/dist/index.html"
     }
   ]
 }
