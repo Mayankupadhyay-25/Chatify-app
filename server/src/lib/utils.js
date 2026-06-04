@@ -14,4 +14,4 @@ export const generateToken = (userId, res) => {
 
     return token;
 };
-// comment out the above code and use the below code if you want to return the token in response body instead of cookie
+
