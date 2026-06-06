@@ -7,6 +7,5 @@
     }catch (error){
         console.error("error connection to MONGODB", error);
         process.exit(1);  
-
     }
   }
